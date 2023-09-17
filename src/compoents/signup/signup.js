@@ -29,7 +29,7 @@ function Signup() {
         updateProfile(user,{
           displayName:values.name,
         })
-        navigate('/');
+        navigate('/login/portal');
         console.log(user);
       })
       .catch((err)=>{

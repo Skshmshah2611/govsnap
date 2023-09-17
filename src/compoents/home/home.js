@@ -1,12 +1,17 @@
 import { Link } from 'react-router-dom';
+import React from 'react';
 import './home.module.css';
 
 function Home(props) {
+    // fetch('https://synth-ai-envoys.onrender.com/genrateVideos').then(
+    //     (response)=>{
+    //         console.log(response)
+    //     })
     return (
         <div>
             <div>
                 <h1>
-                   <Link to="/login">L ogIn</Link>
+                    <Link to="/login">LogIn</Link>
                 </h1>
                 <br/>
                 <h1>
